@@ -1,0 +1,40 @@
+.navbar .login ul li a{
+    text-decoration: none;
+}
+
+
+.card{
+    border-color: gray;
+    display: flex;
+}
+
+
+.card .list-group{
+    display: flex;
+    list-style: none;
+}
+
+.list-group .card-img-top{
+    display: flex;
+}
+
+.asset {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Menyesuaikan tinggi dengan tinggi gambar */
+    overflow: hidden;
+}
+
+.asset img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Memastikan gambar berada di belakang navbar */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
